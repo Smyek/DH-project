@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph edgedefault="undirected">
+    <node id="Mikhail Ippolitov-Ivanov" />
+    <node id="Alexander Gretchaninov" />
+    <node id="Maksym Berezovsky" />
+    <node id="Alexander Borodin" />
+    <node id="Modest Mussorgsky" />
+    <node id="Reinhold Glière" />
+    <node id="Sergei Rachmaninoff" />
+    <node id="Dmitri Shostakovich" />
+    <node id="Dmitry Bortniansky" />
+    <node id="Aleksander Gurilyov" />
+    <node id="Anton Rubinstein" />
+    <node id="Alexander Glazunov" />
+    <node id="Igor Stravinsky" />
+    <node id="Pyotr Ilyich Tchaikovsky" />
+    <node id="Alexey Verstovsky" />
+    <node id="Eduard Nápravník" />
+    <node id="Mikhail Glinka" />
+    <node id="Georgy Sviridov" />
+    <node id="Alfred Schnittke" />
+    <node id="Mily Balakirev" />
+    <node id="Sergei Lyapunov" />
+    <node id="Alexander Scriabin" />
+    <node id="Vasily Kalinnikov" />
+    <node id="Sergei Taneyev" />
+    <node id="César Cui" />
+    <node id="Nikolai Rimsky-Korsakov" />
+    <node id="Alexander Dargomyzhsky" />
+    <node id="Alexander Egorovich Varlamov" />
+    <node id="Anatoly Lyadov" />
+    <node id="Sergei Prokofiev" />
+    <node id="Dmitry Kabalevsky" />
+    <node id="Anton Arensky" />
+    <node id="Pavel Chesnokov" />
+    <edge source="Mikhail Ippolitov-Ivanov" target="Reinhold Glière" />
+    <edge source="Mikhail Ippolitov-Ivanov" target="Pyotr Ilyich Tchaikovsky" />
+    <edge source="Mikhail Ippolitov-Ivanov" target="Pavel Chesnokov" />
+    <edge source="Mikhail Ippolitov-Ivanov" target="Nikolai Rimsky-Korsakov" />
+    <edge source="Mikhail Ippolitov-Ivanov" target="Modest Mussorgsky" />
+    <edge source="Alexander Gretchaninov" target="Sergei Taneyev" />
+    <edge source="Alexander Gretchaninov" target="Igor Stravinsky" />
+    <edge source="Alexander Gretchaninov" target="Anton Arensky" />
+    <edge source="Alexander Gretchaninov" target="Sergei Prokofiev" />
+    <edge source="Alexander Gretchaninov" target="Nikolai Rimsky-Korsakov" />
+    <edge source="Maksym Berezovsky" target="Dmitry Bortniansky" />
+    <edge source="Alexander Borodin" target="Mikhail Glinka" />
+    <edge source="Alexander Borodin" target="Alexander Glazunov" />
+    <edge source="Alexander Borodin" target="César Cui" />
+    <edge source="Alexander Borodin" target="Nikolai Rimsky-Korsakov" />
+    <edge source="Alexander Borodin" target="Sergei Taneyev" />
+    <edge source="Alexander Borodin" target="Modest Mussorgsky" />
+    <edge source="Alexander Borodin" target="Mily Balakirev" />
+    <edge source="Alexander Borodin" target="Eduard Nápravník" />
+    <edge source="Alexander Borodin" target="Pyotr Ilyich Tchaikovsky" />
+    <edge source="Modest Mussorgsky" target="Mikhail Glinka" />
+    <edge source="Modest Mussorgsky" target="Eduard Nápravník" />
+    <edge source="Modest Mussorgsky" target="Anton Arensky" />
+    <edge source="Modest Mussorgsky" target="Pyotr Ilyich Tchaikovsky" />
+    <edge source="Modest Mussorgsky" target="Sergei Taneyev" />
+    <edge source="Modest Mussorgsky" target="Mily Balakirev" />
+    <edge source="Modest Mussorgsky" target="César Cui" />
+    <edge source="Modest Mussorgsky" target="Dmitri Shostakovich" />
+    <edge source="Modest Mussorgsky" target="Alexander Dargomyzhsky" />
+    <edge source="Modest Mussorgsky" target="Alexander Glazunov" />
+    <edge source="Modest Mussorgsky" target="Anatoly Lyadov" />
+    <edge source="Modest Mussorgsky" target="Sergei Prokofiev" />
+    <edge source="Modest Mussorgsky" target="Alexey Verstovsky" />
+    <edge source="Modest Mussorgsky" target="Nikolai Rimsky-Korsakov" />
+    <edge source="Reinhold Glière" target="Mikhail Glinka" />
+    <edge source="Reinhold Glière" target="Alexander Scriabin" />
+    <edge source="Reinhold Glière" target="Sergei Taneyev" />
+    <edge source="Reinhold Glière" target="Alexander Glazunov" />
+    <edge source="Reinhold Glière" target="Sergei Prokofiev" />
+    <edge source="Reinhold Glière" target="Anton Arensky" />
+    <edge source="Sergei Rachmaninoff" target="Vasily Kalinnikov" />
+    <edge source="Sergei Rachmaninoff" target="Sergei Taneyev" />
+    <edge source="Sergei Rachmaninoff" target="Alexander Scriabin" />
+    <edge source="Sergei Rachmaninoff" target="César Cui" />
+    <edge source="Sergei Rachmaninoff" target="Alfred Schnittke" />
+    <edge source="Sergei Rachmaninoff" target="Anton Rubinstein" />
+    <edge source="Sergei Rachmaninoff" target="Alexander Glazunov" />
+    <edge source="Sergei Rachmaninoff" target="Sergei Prokofiev" />
+    <edge source="Sergei Rachmaninoff" target="Anton Arensky" />
+    <edge source="Sergei Rachmaninoff" target="Nikolai Rimsky-Korsakov" />
+    <edge source="Sergei Rachmaninoff" target="Pyotr Ilyich Tchaikovsky" />
+    <edge source="Dmitri Shostakovich" target="Georgy Sviridov" />
+    <edge source="Dmitri Shostakovich" target="Alexander Scriabin" />
+    <edge source="Dmitri Shostakovich" target="Alfred Schnittke" />
+    <edge source="Dmitri Shostakovich" target="Alexander Glazunov" />
+    <edge source="Dmitri Shostakovich" target="Sergei Prokofiev" />
+    <edge source="Dmitri Shostakovich" target="Dmitry Kabalevsky" />
+    <edge source="Dmitri Shostakovich" target="Igor Stravinsky" />
+    <edge source="Dmitry Bortniansky" target="Alexander Egorovich Varlamov" />
+    <edge source="Dmitry Bortniansky" target="Pyotr Ilyich Tchaikovsky" />
+    <edge source="Aleksander Gurilyov" target="Alexander Egorovich Varlamov" />
+    <edge source="Anton Rubinstein" target="Mikhail Glinka" />
+    <edge source="Anton Rubinstein" target="Alexander Glazunov" />
+    <edge source="Anton Rubinstein" target="César Cui" />
+    <edge source="Anton Rubinstein" target="Mily Balakirev" />
+    <edge source="Anton Rubinstein" target="Pyotr Ilyich Tchaikovsky" />
+    <edge source="Anton Rubinstein" target="Nikolai Rimsky-Korsakov" />
+    <edge source="Alexander Glazunov" target="Pyotr Ilyich Tchaikovsky" />
+    <edge source="Alexander Glazunov" target="Sergei Taneyev" />
+    <edge source="Alexander Glazunov" target="Mily Balakirev" />
+    <edge source="Alexander Glazunov" target="Alexander Scriabin" />
+    <edge source="Alexander Glazunov" target="Anatoly Lyadov" />
+    <edge source="Alexander Glazunov" target="Igor Stravinsky" />
+    <edge source="Alexander Glazunov" target="Anton Arensky" />
+    <edge source="Alexander Glazunov" target="Sergei Prokofiev" />
+    <edge source="Alexander Glazunov" target="Nikolai Rimsky-Korsakov" />
+    <edge source="Igor Stravinsky" target="Sergei Taneyev" />
+    <edge source="Igor Stravinsky" target="Mily Balakirev" />
+    <edge source="Igor Stravinsky" target="Anatoly Lyadov" />
+    <edge source="Igor Stravinsky" target="Sergei Prokofiev" />
+    <edge source="Igor Stravinsky" target="Alexander Scriabin" />
+    <edge source="Igor Stravinsky" target="Nikolai Rimsky-Korsakov" />
+    <edge source="Igor Stravinsky" target="Pyotr Ilyich Tchaikovsky" />
+    <edge source="Pyotr Ilyich Tchaikovsky" target="Pyotr Ilyich Tchaikovsky" />
+    <edge source="Pyotr Ilyich Tchaikovsky" target="Nikolai Rimsky-Korsakov" />
+    <edge source="Pyotr Ilyich Tchaikovsky" target="Mikhail Glinka" />
+    <edge source="Pyotr Ilyich Tchaikovsky" target="Alfred Schnittke" />
+    <edge source="Pyotr Ilyich Tchaikovsky" target="Mily Balakirev" />
+    <edge source="Pyotr Ilyich Tchaikovsky" target="Sergei Lyapunov" />
+    <edge source="Pyotr Ilyich Tchaikovsky" target="Vasily Kalinnikov" />
+    <edge source="Pyotr Ilyich Tchaikovsky" target="Sergei Taneyev" />
+    <edge source="Pyotr Ilyich Tchaikovsky" target="César Cui" />
+    <edge source="Pyotr Ilyich Tchaikovsky" target="Eduard Nápravník" />
+    <edge source="Pyotr Ilyich Tchaikovsky" target="Alexander Dargomyzhsky" />
+    <edge source="Pyotr Ilyich Tchaikovsky" target="Anatoly Lyadov" />
+    <edge source="Pyotr Ilyich Tchaikovsky" target="Sergei Prokofiev" />
+    <edge source="Pyotr Ilyich Tchaikovsky" target="Anton Arensky" />
+    <edge source="Pyotr Ilyich Tchaikovsky" target="Pavel Chesnokov" />
+    <edge source="Alexey Verstovsky" target="Mikhail Glinka" />
+    <edge source="Eduard Nápravník" target="Mily Balakirev" />
+    <edge source="Eduard Nápravník" target="Nikolai Rimsky-Korsakov" />
+    <edge source="Mikhail Glinka" target="Sergei Taneyev" />
+    <edge source="Mikhail Glinka" target="Mily Balakirev" />
+    <edge source="Mikhail Glinka" target="César Cui" />
+    <edge source="Mikhail Glinka" target="Alexander Dargomyzhsky" />
+    <edge source="Mikhail Glinka" target="Anatoly Lyadov" />
+    <edge source="Mikhail Glinka" target="Sergei Lyapunov" />
+    <edge source="Mikhail Glinka" target="Anton Arensky" />
+    <edge source="Mikhail Glinka" target="Nikolai Rimsky-Korsakov" />
+    <edge source="Mily Balakirev" target="Sergei Lyapunov" />
+    <edge source="Mily Balakirev" target="Sergei Taneyev" />
+    <edge source="Mily Balakirev" target="Alexander Scriabin" />
+    <edge source="Mily Balakirev" target="César Cui" />
+    <edge source="Mily Balakirev" target="Nikolai Rimsky-Korsakov" />
+    <edge source="Mily Balakirev" target="Alexander Dargomyzhsky" />
+    <edge source="Mily Balakirev" target="Anatoly Lyadov" />
+    <edge source="Mily Balakirev" target="Anton Arensky" />
+    <edge source="Sergei Lyapunov" target="Sergei Taneyev" />
+    <edge source="Sergei Lyapunov" target="Anatoly Lyadov" />
+    <edge source="Sergei Lyapunov" target="Nikolai Rimsky-Korsakov" />
+    <edge source="Alexander Scriabin" target="Sergei Taneyev" />
+    <edge source="Alexander Scriabin" target="Anatoly Lyadov" />
+    <edge source="Alexander Scriabin" target="Anton Arensky" />
+    <edge source="Alexander Scriabin" target="Sergei Prokofiev" />
+    <edge source="Alexander Scriabin" target="Nikolai Rimsky-Korsakov" />
+    <edge source="Sergei Taneyev" target="César Cui" />
+    <edge source="Sergei Taneyev" target="Pavel Chesnokov" />
+    <edge source="Sergei Taneyev" target="Anton Arensky" />
+    <edge source="Sergei Taneyev" target="Sergei Prokofiev" />
+    <edge source="Sergei Taneyev" target="Nikolai Rimsky-Korsakov" />
+    <edge source="César Cui" target="Alexander Dargomyzhsky" />
+    <edge source="César Cui" target="Nikolai Rimsky-Korsakov" />
+    <edge source="Nikolai Rimsky-Korsakov" target="Alexander Dargomyzhsky" />
+    <edge source="Nikolai Rimsky-Korsakov" target="Anatoly Lyadov" />
+    <edge source="Nikolai Rimsky-Korsakov" target="Sergei Prokofiev" />
+    <edge source="Nikolai Rimsky-Korsakov" target="Anton Arensky" />
+    <edge source="Anatoly Lyadov" target="Sergei Prokofiev" />
+    <edge source="Sergei Prokofiev" target="Dmitry Kabalevsky" />
+  </graph>
+</graphml>

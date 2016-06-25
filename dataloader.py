@@ -46,6 +46,7 @@ def find_references(author, composers):
             references.append(link)
     return references
 
+
 def get_connections_by_lang(lang="ru"):
     wikipedia.set_lang(lang)
     connections = []
@@ -60,14 +61,18 @@ def get_connections_by_lang(lang="ru"):
         filestream.write("\n".join(connections))
     return connections
 
+def load_connections(lang):
+    with open(_DATA_PATH + "%s_connections.csv" % lang, "r", encoding="utf-8") as filestream:
+        connections = [row.split("\t") for row in filestream.read().split("\n")]
+    return connections
+
 def save_connections():
     connections = []
-    for lang in ["ru", "en"]:
+    for lang in _lang_indexes.keys():
         connections += get_connections_by_lang(lang)
     with open(_DATA_PATH + "all_connections.csv", "w", encoding="utf-8") as filestream:
         filestream.write("\n".join(connections))
 
-_COMPOSERS_LIST = load_composers()
-
 if __name__ == "__main__":
+    _COMPOSERS_LIST = load_composers()
     save_connections()
