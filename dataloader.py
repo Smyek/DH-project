@@ -73,6 +73,14 @@ def save_connections():
     with open(_DATA_PATH + "all_connections.csv", "w", encoding="utf-8") as filestream:
         filestream.write("\n".join(connections))
 
+def en_on_ru_connections(_COMPOSERS_LIST):
+    connections = load_connections("en")
+    composers_list = dict([(v,k) for k,v in _COMPOSERS_LIST])
+    ru_on_en_connections = [composers_list[source] + "\t" + composers_list[target] for source, target in connections]
+    with open(_DATA_PATH + "en(ru)_connections.csv", "w", encoding="utf-8") as filestream:
+        filestream.write("\n".join(ru_on_en_connections))
+
 if __name__ == "__main__":
     _COMPOSERS_LIST = load_composers()
     save_connections()
+    en_on_ru_connections(_COMPOSERS_LIST)
