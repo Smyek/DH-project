@@ -4,7 +4,7 @@ import re
 
 _DATA_PATH = "data/"
 _COMPOSERSFILE = "composers.csv"
-_english_url = re.compile('<a href="//en.wikipedia.org/wiki/(.+)" title=".+" lang="en" hreflang="en">English</a>')
+_english_url = re.compile('<a href="//en.wikipedia.org/wiki/.+" title="(.+) — .+" lang="en" hreflang="en">English</a>')
 _lang_indexes = {'ru': 0, 'en': 1}
 
 def load_composers():
@@ -20,6 +20,7 @@ def save_english_names():
         composers = filestream.read().split("\n")
 
     for author in composers:
+        print("Finding english url for %s..." % author)
         page = wikipedia.page(author)
         authors.append(author + "\t" + get_english_analogue(page.url))
 
@@ -45,7 +46,7 @@ def find_references(author, composers):
             references.append(link)
     return references
 
-def save_connections(lang="ru"):
+def get_connections_by_lang(lang="ru"):
     wikipedia.set_lang(lang)
     connections = []
     composers = [comp[_lang_indexes[lang]] for comp in _COMPOSERS_LIST]
@@ -55,11 +56,18 @@ def save_connections(lang="ru"):
         if references:
             for ref in references:
                 connections.append(composer + "\t" + ref)
-    with open(_DATA_PATH + "connections.csv", "w", encoding="utf-8") as filestream:
+    with open(_DATA_PATH + "%s_connections.csv" % lang, "w", encoding="utf-8") as filestream:
+        filestream.write("\n".join(connections))
+    return connections
+
+def save_connections():
+    connections = []
+    for lang in ["ru", "en"]:
+        connections += get_connections_by_lang(lang)
+    with open(_DATA_PATH + "all_connections.csv", "w", encoding="utf-8") as filestream:
         filestream.write("\n".join(connections))
 
 _COMPOSERS_LIST = load_composers()
 
 if __name__ == "__main__":
-    for lang in ["ru", "en"]:
-        save_connections(lang)
+    save_connections()
